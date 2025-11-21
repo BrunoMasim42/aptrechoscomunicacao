@@ -491,18 +491,29 @@
   
   .about :is(.section-title, .section-text) { text-align: left; }
   
-  .about .section-title { margin-block-end: 5px; }
+  .about .section-title { 
+    margin-block-end: 5px;
+   }
   
-  .about .section-text:not(:last-child) { margin-block-end: 18px; }
+  .about .section-text:not(:last-child) { margin-block-end: 18px; 
+  }
   
-  .about .h3 { margin-block-end: 8px; }
+  .about .h3 { 
+    margin-block-end: 8px;
+   }
   
-  .about-list { margin-block: 15px 18px; }
+  .about-list { 
+    margin-block: 15px 18px; 
+  }
   
   .about-item {
     display: flex;
     align-items: flex-start;
     gap: 5px;
+  }
+
+  .about-content .section-text{
+    text-align: justify;
   }
   
   .about-item ion-icon {
